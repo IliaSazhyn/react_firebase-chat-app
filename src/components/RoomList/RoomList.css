@@ -1,0 +1,55 @@
+.RoomList {
+    background: #e9ecef;
+}
+
+.ListGroup {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    width: 100%;
+    padding: .75rem 1.7rem;
+    z-index: 1;
+
+}
+
+.ListGroup span {
+    color: #000;
+    text-decoration: none;
+}
+
+.ListGroup span:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+.ListGroupDelete {
+    position: absolute;
+    z-index: 999;
+    left: -2.5rem;
+    text-decoration: none;
+    color: #ff0000;
+    padding: .75rem;
+}
+
+.ListGroupDelete:hover {
+    color: #007BFF;
+}
+
+.RoomList_Table {
+    height: 100vh;
+    width: 100vw;
+    padding: 4rem 3rem;
+    margin: 0;
+}
+
+.PasswordConfirm {
+    margin-top: 1rem;
+}
+
+.RoomList_Avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}

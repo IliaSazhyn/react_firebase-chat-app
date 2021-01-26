@@ -1,0 +1,20 @@
+.AddRoom {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    background-color: #e9ecef;
+}
+
+.Spinner {
+    display: flex;
+    justify-content: center;
+}
+
+.AddRoom_Navbar {
+    background-color: #fff;
+    height: 65px;
+}
+
+.AddRoom_Navbar button {
+    padding: 0.4rem 1.1rem;
+}
