@@ -1,0 +1,108 @@
+.formContent {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.formHeader {
+  color: #fff;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.formButton {
+  background: #01bf71;
+  padding: 16px 12px;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.userImg {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.userName {
+  font-size: 2rem;
+  color: #fff;
+  text-align: center;
+}
+
+.Icon {
+  font-size: 4rem;
+}
+
+.Header {
+  font-size: 2rem;
+  font-weight: 600;
+  transition: color .5s ease-out 0s;
+  color: rgb(255, 255, 255, 0.429);
+  backdrop-filter: blur(1px);
+  margin: 1rem 0 0 1rem;
+}
+
+.Header:hover {
+  color: #fff;
+}
+
+.Container {
+  min-height: 692px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 0;
+  overflow: hidden;
+  background: linear-gradient(108deg,
+      rgba(1, 147, 86, 1) 0%,
+      rgba(10, 201, 122, 1) 100%);
+}
+
+.FormWrap {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.FormContent {
+  margin: 0 2rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Form {
+  background: #010101;
+  max-width: 480px;
+  height: 500px;
+  width: 100%;
+  z-index: 1;
+  display: grid;
+  margin: 0 auto;
+  padding: 80px 32px;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.9);
+}
+
+@media screen and (max-width: 400px) {
+  .FormWrap {
+    height: 80%;
+  }
+
+  .Form {
+    padding: 32px 32px;
+  }
+
+  .FormContent {
+    padding: 10px;
+  }
+}

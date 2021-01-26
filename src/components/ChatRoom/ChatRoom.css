@@ -1,0 +1,152 @@
+/* ChatRoom */
+
+.ChatRoomContainer {
+    padding: 0 15px;
+    background-color: #e9ecef;
+}
+
+.ChatRoom {
+    background-color: #e9ecef;
+}
+
+.ChatContainer {
+    height: calc(100vh - 140px);
+    background-color: #e9ecef;
+}
+.ChatTest {
+    height: calc(100% - 140px);
+    background-color: #e9ecef;
+}
+
+.ChatContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 70px 0;
+}
+
+/* User */
+
+.UsersCard .CardBody {
+    display: flex;
+    align-items: center;
+}
+
+.UserImage {
+    margin-right: 0.5rem;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+@media (max-width:480px) {
+    .UserImage {
+        margin-bottom: 1rem;
+    }
+}
+
+/* Footer */
+
+footer.StickyFooter {
+    position: fixed;
+    height: 70px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: #ffffff;
+    border-top: solid 1px #efefef;
+}
+
+.FooterScroll {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    z-index: 999;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    bottom: 5rem;
+    transform: rotate(270deg);
+    left: 1rem;
+}
+
+/* Message links */
+
+.MessageBox {
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+    overflow-wrap: anywhere;
+}
+
+.MessageBox a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.MessageBox a:hover {
+    color: #000;
+}
+
+.Avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+/* Right Bubble */
+
+.MessageBox .ChatMessage .RightBubble {
+    background: #28a745;
+    color: white;
+    border-radius: 0.5rem;
+    padding: 3px 10px;
+    margin-bottom: 1rem;
+}
+
+.MessageBox .ChatMessage .RightBubble span.MsgName {
+    font-size: 12px;
+    font-weight: bold;
+    color: green;
+}
+
+.MessageBox .ChatMessage .RightBubble span.MsgDate {
+    font-size: 10px;
+}
+
+/* Left Bubble */
+
+.MessageBox .ChatMessage .LeftBubble {
+    background: #64a8e5;
+    border-radius: 0.5rem;
+    padding: 3px 10px;
+    margin-bottom: 1rem;
+}
+
+.MessageBox .ChatMessage .LeftBubble span.MsgName {
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.MessageBox .ChatMessage .LeftBubble span.MsgDate {
+    font-size: 10px;
+}
+
+/* Delete Message */
+
+.ChatMessage {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.ChatMessageDelete {
+    padding-left: 10px;
+    z-index: 0;
+}
+
+.ChatMessageDelete span {
+    color: red;
+}
